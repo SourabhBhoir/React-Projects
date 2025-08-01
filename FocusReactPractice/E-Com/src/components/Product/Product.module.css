@@ -1,0 +1,48 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 30px; /* Creates space between the cards */
+    padding: 20px;
+}
+
+.card {
+    height: 300px;
+    width: 100%; /* Adjusted width to fit within grid column */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for visual separation */
+    background-color: white; /* Ensure cards have a background color */
+}
+
+.img {
+    height: 60%;
+    width: 100%; /* Ensure image takes full width of the card */
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: lightgray; /* Placeholder for image */
+}
+
+.words {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: justify;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #005f73;
+}

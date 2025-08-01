@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.list ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.list ul li{
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.list ul li:hover{
+    text-decoration: underline;
+}
